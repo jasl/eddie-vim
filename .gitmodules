@@ -116,3 +116,12 @@
 	path = bundle/vimwiki
 	url = git://github.com/vim-scripts/vimwiki.git
         ignore = untracked
+[submodule "bundle/neocomplcache"]
+  path = bundle/neocomplcache
+  url = git://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-processing"]
+  path = bundle/vim-processing
+  url = git://github.com/sophacles/vim-processing.git
+[submodule "bundle/zencoding-vim"]
+  path = bundle/zencoding-vim
+  url = git://github.com/vim-scripts/ZenCoding.vim.git
