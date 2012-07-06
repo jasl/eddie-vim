@@ -128,3 +128,6 @@
 [submodule "bundle/sudo-vim"]
 	path = bundle/sudo-vim
 	url = git://github.com/vim-scripts/sudo.vim.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
