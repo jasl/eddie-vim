@@ -17,3 +17,6 @@ noremap <CR> :nohlsearch<CR>
 
 " select ALL
 map <C-A> ggVG
+
+"JSLint
+map <C-J> :JSLint<CR>
