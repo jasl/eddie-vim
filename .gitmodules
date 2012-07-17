@@ -133,3 +133,4 @@
 [submodule "bundle/vim-zencoding"]
 	path = bundle/vim-zencoding
 	url = git://github.com/vim-scripts/ZenCoding.vim.git
+	      ignore = untracked
