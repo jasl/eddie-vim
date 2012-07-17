@@ -20,3 +20,6 @@ map <C-A> ggVG
 
 "JSLint
 map <C-J> :JSLint<CR>
+
+"Copy to clipboard
+vmap <C-b> :w !pbcopy<CR>
