@@ -118,9 +118,6 @@
 [submodule "bundle/vim-processing"]
 	path = bundle/vim-processing
 	url = git://github.com/sophacles/vim-processing.git
-[submodule "bundle/zencoding-vim"]
-	path = bundle/zencoding-vim
-	url = git://github.com/vim-scripts/ZenCoding.vim.git
 [submodule "bundle/sudo-vim"]
 	path = bundle/sudo-vim
 	url = git://github.com/vim-scripts/sudo.vim.git
@@ -133,3 +130,6 @@
 [submodule "bundle/vim-php"]
 	path = bundle/vim-php
 	url = git://github.com/StanAngeloff/php.vim.git
+[submodule "bundle/vim-zencoding"]
+	path = bundle/vim-zencoding
+	url = git://github.com/vim-scripts/ZenCoding.vim.git
