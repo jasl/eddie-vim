@@ -134,3 +134,6 @@
 [submodule "bundle/vim-php"]
 	path = bundle/vim-php
 	url = git://github.com/vim-scripts/php.vim--Garvin.git
+[submodule "bundle/vim-align"]
+	path = bundle/vim-align
+	url = git://github.com/vim-scripts/Align.git
