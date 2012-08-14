@@ -6,7 +6,7 @@ set ruler                             " show the cursor position all the time
 set autoread                          " auto read when file is changed from outside
 set wrap
 set linebreak
-set nolist
+set list
 set hidden
 set linespace=0
 set cursorline
@@ -30,6 +30,17 @@ set key=			                        " disable encryption
 set synmaxcol=512
 set viminfo=			                    " disable .viminfo file
 set ttyfast                           " send more chars while redrawing
+
+" list chars
+set listchars=""                  " Reset the listchars
+set listchars=tab:\ \             " a tab should display as " ", trailing whitespace as "."
+set listchars+=trail:.            " show trailing spaces as dots
+set listchars+=extends:>          " The character to show in the last column when wrap is
+                                  " off and the line continues beyond the
+                                  " right of the screen
+set listchars+=precedes:<         " The character to show in the last column when
+                                  " wrap is off and the line continues beyond
+                                  " theright of the screen
 
 filetype on                           " enable filetype detection
 filetype indent on                    " enable filetype-specific indenting

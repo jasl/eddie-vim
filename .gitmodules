@@ -137,4 +137,7 @@
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = git://github.com/vim-scripts/Align.git
-	      ignore = untracked
+  ignore = untracked
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
